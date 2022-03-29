@@ -33,7 +33,7 @@ public class ObjectTypeArray {
         //reference type array...
         Students []arr = new Students[3];
         arr[0] = new Students("Abdur Rahman", 3.77, "011202260");
-        arr[1] = new Students("Thao Nhi", 3.77,  "2912005");
+        arr[1] = new Students("L Lawliet", 3.77,  "01072001");
 
         arr[0].attendingExam();
         //here, it's pointing at s1 reference, therefore it will access its properties
